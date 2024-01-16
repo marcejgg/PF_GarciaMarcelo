@@ -1,12 +1,7 @@
-/*
-
-    selector {
-        propiedad: valor;
-    }
-
-*/
+/* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu&display=swap');
 
+/* Responsive Media Queries */
 @media only screen and (max-width: 414px) {
     #body_h2 {
         text-align: center;
@@ -33,6 +28,7 @@
     }
 }
 
+/* Formatting */
 
 body {
     font-family: 'Ubuntu', sans-serif;

@@ -122,7 +122,9 @@ h2 {
 .margin_bottom {
     margin-bottom: 3rem;
 }
-
+.margin_bottom_sm {
+    margin-bottom: 1rem;
+}
 .aligned_right {
     text-align: right;
 }
@@ -152,7 +154,6 @@ h2.test_scale:hover {
 
 .button {
     outline: none;
-    display: block;
     background-color: cornflowerblue; 
     border: 3px solid cornflowerblue;
     border-radius: 5px;

@@ -82,8 +82,6 @@ h2 {
 .img_col_limit_350_200 {
     height: 350px;
     width: 200px;
-    margin-top: 4rem;
-
 }
 .img_col_limit_350_200>img {
     width: 100%;

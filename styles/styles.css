@@ -148,6 +148,7 @@ h2.test_scale:hover {
 
 .button {
     outline: none;
+    display: inline-block;
     background-color: cornflowerblue; 
     border: 3px solid cornflowerblue;
     border-radius: 5px;

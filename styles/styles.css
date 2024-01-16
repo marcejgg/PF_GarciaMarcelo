@@ -1,0 +1,137 @@
+/*
+
+    selector {
+        propiedad: valor;
+    }
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu&display=swap');
+
+@media only screen and (max-width: 414px) {
+    #body_h2 {
+        text-align: center;
+    }
+    #body_text {
+        text-align: center;
+    }
+
+    #body_img {
+        display: none;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .main-section {
+        display: none;
+    }    
+}
+@media only screen and (min-width: 811px) and (max-width: 1028px) {
+    #cra_logo {
+        display: none;
+    }
+    #main_title {
+        padding: 5rem;
+    }
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+a {
+    text-decoration: none;
+    transition: transform .5s ease-in-out;
+}
+a:visited {
+    color: black;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 40px;
+}
+
+.footer {
+    background-color: cornflowerblue;
+    padding: 1rem;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: cornflowerblue;
+}
+
+
+.img_col_limit {
+    height: 275px;
+    width: 300px;
+    margin: 2px;
+    padding: 2px;  
+}
+
+.img_col_limit>img {
+    width: 100%;
+    height: 100%;
+}
+
+.img_col_limit_350_200 {
+    height: 350px;
+    width: 200px;
+    margin-top: 4rem;
+
+}
+.img_col_limit_350_200>img {
+    width: 100%;
+    height: 100%;
+}
+.row_margin {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.centered {
+    text-align: center;
+}
+
+.margin_left {
+    margin-left: 3rem;
+}
+
+.margin_top {
+    margin-top: 3rem;
+}
+
+.margin_bottom {
+    margin-bottom: 3rem;
+}
+
+.aligned_right {
+    text-align: right;
+}
+
+.test_scale {
+    transition: transform .5s ease-in-out;
+}
+
+h2.test_scale:hover {
+    transform: scale(1.1);
+}
+
+.img_col {
+    height: 640px;
+    margin: 2px;
+    padding: 2px;
+}
+
+.img_col>img {
+    width: 100%;
+    height: 100%;
+}
+
+.centered {
+    text-align: center;
+}

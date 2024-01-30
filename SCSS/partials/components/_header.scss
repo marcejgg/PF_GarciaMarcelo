@@ -23,10 +23,4 @@ h1 {
 }
 h2 {
     font-size: 40px;
-    .test_scale {
-        transition: transform .5s ease-in-out;
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
 }

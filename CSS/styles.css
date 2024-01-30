@@ -52,12 +52,6 @@ h1 {
 h2 {
   font-size: 40px;
 }
-h2 .test_scale {
-  transition: transform 0.5s ease-in-out;
-}
-h2 .test_scale:hover {
-  transform: scale(1.1);
-}
 
 .button_common, .button_3, .button_2, .button_1 {
   border-radius: 6px;
@@ -137,12 +131,13 @@ body {
 a {
   text-decoration: none;
   transition: transform 0.5s ease-in-out;
+  display: inline-block;
+}
+a:visited {
+  color: rgb(0, 0, 0);
 }
 a:hover {
   transform: scale(1.1);
-}
-a:visited {
-  color: black;
 }
 
 hr {

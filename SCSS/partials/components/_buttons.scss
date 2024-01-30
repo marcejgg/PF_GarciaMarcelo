@@ -1,9 +1,9 @@
 .button_common {
-    border-radius: 6px;
+    border-radius: $button_radius;
     display: inline-block;
     outline: 0;
     border: 0;
-    font-size: 15px;
+    font-size: $font_size_s;
     text-decoration: none;
     line-height: 1;
     position: relative;

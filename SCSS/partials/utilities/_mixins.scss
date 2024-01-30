@@ -1,0 +1,14 @@
+@mixin border_bottom($border_color, $border_size) {
+    border-bottom: $border_size solid $border_color;
+}
+
+@mixin border_top($border_color, $border_size) {
+    border-top: $border_size solid $border_color;
+}
+
+// row format
+
+@mixin col_limit($height, $width) {
+    height: $height;
+    width: $width;
+}

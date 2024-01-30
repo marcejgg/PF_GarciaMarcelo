@@ -1,0 +1,26 @@
+// common things for header and footer
+.head_foot {
+    background-color: map-get($colors, rega_celeste_claro);
+    padding: $small_padding;
+}
+
+// header
+.navbar {
+    @extend .head_foot;
+    @include border_bottom( map-get($colors, rega_rojo), map-get($border_size, s) );
+}
+
+// footer
+.footer {
+    @extend .head_foot;
+    @include border_top (map-get($colors, rega_rojo), map-get($border_size, s))
+}
+
+// h1 h2
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 40px;
+}

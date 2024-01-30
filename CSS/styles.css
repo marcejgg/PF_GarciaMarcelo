@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu&display=swap");
+.row_margin {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.margin_left {
+  margin-left: 3rem;
+}
+
+.margin_top {
+  margin-top: 3rem;
+}
+
+.margin_top_sm {
+  margin-top: 1rem;
+}
+
+.margin_bottom {
+  margin-bottom: 3rem;
+}
+
+.margin_bottom_sm {
+  margin-bottom: 1rem;
+}
+
+.aligned_right {
+  text-align: right;
+}
+
+.head_foot, .footer, .navbar {
+  background-color: #50BBE9;
+  padding: 1rem;
+}
+
+.navbar {
+  border-bottom: 2px solid #E10A17;
+}
+
+.footer {
+  border-top: 2px solid #E10A17;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.button_common, .button_3, .button_2, .button_1 {
+  border-radius: 6px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+.button_common:hover, .button_3:hover, .button_2:hover, .button_1:hover {
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.08);
+}
+
+.button_1 {
+  background: #1abebf;
+  background-image: linear-gradient(122deg, #8ae8ff, #ff5555);
+  background-size: 300px, 300px, 100%;
+  color: #000000;
+}
+
+.button_2 {
+  background: #1abebf;
+  background-image: linear-gradient(122deg, #ff5555, #8ae8ff);
+  background-size: 300px, 300px, 100%;
+  color: #000000;
+}
+
+.button_3 {
+  background: #505050;
+  background-image: linear-gradient(122deg, rgba(0, 0, 0, 0.5019607843), #ffffff);
+  background-size: 300px, 300px, 100%;
+  color: white;
+}
+
+.button {
+  outline: none;
+  display: inline-block;
+  background-color: #50BBE9;
+  border: 3px solid #0399D3;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: whitesmoke;
+}
+
+.img_fix, .col_limit_640 img, .col_limit_600 img, .col_limit_350_200 img, .col_limit_275_300 img {
+  width: 100%;
+  height: 100%;
+}
+
+.col_limit_275_300 {
+  height: 275px;
+  width: 300px;
+}
+.col_limit_350_200 {
+  height: 350px;
+  width: 200px;
+}
+.col_limit_600 {
+  height: 600px;
+}
+.col_limit_640 {
+  height: 640px;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: transform 0.5s ease-in-out;
+  display: inline-block;
+}
+a:visited {
+  color: rgb(0, 0, 0);
+}
+a:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  border: 2px solid black;
+  border-radius: 6px;
+}
+
+/* Responsive Media Queries */
+@media only screen and (max-width: 414px) {
+  #body_h2 {
+    text-align: center;
+  }
+  #body_text {
+    text-align: center;
+  }
+  #body_img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 810px) {
+  .main-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 811px) and (max-width: 1028px) {
+  #cra_logo {
+    display: none;
+  }
+  #main_title {
+    padding: 5rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

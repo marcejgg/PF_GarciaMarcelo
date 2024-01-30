@@ -1,0 +1,32 @@
+.img_fix {
+    width: 100%;
+    height: 100%;
+}
+
+.col_limit_275_300 {
+    @include col_limit(275px, 300px );
+    img {
+        @extend .img_fix;
+    }
+}
+
+.col_limit_350_200 {
+    @include col_limit(350px, 200px);
+    img {
+        @extend .img_fix;
+    }
+}
+
+.col_limit_600 {
+    height: 600px;
+    img {
+        @extend .img_fix;
+    }
+}
+
+.col_limit_640 {
+    height: 640px;
+    img {
+        @extend .img_fix;
+    }
+}

@@ -27,13 +27,17 @@ h2 {
 }
 
 .footer {
-    background-color: cornflowerblue;
+    background-color: #50BBE9;
+    border-top: 2px solid #E10A17;
+    border-bottom: 2px solid #0399D3;
     padding: 1rem;
+    
 }
 
 .navbar {
     padding: 1rem;
-    background-color: cornflowerblue;
+    background-color: #50BBE9;
+    border-bottom: 2px solid #E10A17;
 }
 
 
@@ -123,16 +127,99 @@ h2.test_scale:hover {
 .button {
     outline: none;
     display: inline-block;
-    background-color: cornflowerblue; 
-    border: 3px solid cornflowerblue;
+    background-color: #50BBE9; 
+    border: 3px solid #0399D3;
     border-radius: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 20px;
     padding-right: 20px;
     color: whitesmoke;
+    
 }
 
+
+.button_1 {
+    border-radius: 6px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 10px;
+    background: #1abebf;
+    background-image: linear-gradient(122deg,#8ae8ff,#ff5555);
+    background-size: 300px,300px,100%;
+    color: #000000;
+    /*
+    border-bottom: 5px solid #00bbff; */
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    transition: all .3s;
+    :hover{
+        box-shadow: 0 0 3px 3px rgb(0 0 0 / 8%);
+    }
+    
+}
+
+.button_2 {
+    border-radius: 6px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 10px;
+    background: #1abebf;
+    background-image: linear-gradient(122deg,#ff5555, #8ae8ff);
+    background-size: 300px,300px,100%;
+    color: #000000;
+    /*
+    border-bottom: 5px solid #00bbff; */
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    transition: all .3s;
+    :hover{
+        box-shadow: 0 0 3px 3px rgb(0 0 0 / 8%);
+    }
+    
+}
+
+.button_3 {
+    border-radius: 6px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    position: relative;
+    padding: 10px;
+    background: #505050;
+    background-image: linear-gradient(122deg,#00000080, #ffffff);
+    background-size: 300px,300px,100%;
+    color: white;
+    /*
+    border-bottom: 5px solid #00bbff; */
+    box-shadow: 0 0 3px 3px rgb(0 0 0 / 5%);
+    text-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    transition: all .3s;
+    :hover{
+        box-shadow: 0 0 3px 3px rgb(0 0 0 / 8%);
+    }
+    
+}
+
+hr {
+    border: 2px solid black;
+    border-radius: 6px;
+}
 
 /* Responsive Media Queries */
 @media only screen and (max-width: 414px) {

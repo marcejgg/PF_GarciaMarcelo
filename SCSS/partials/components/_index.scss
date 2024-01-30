@@ -1,0 +1,21 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: transform .5s ease-in-out;
+    &:hover {
+        transform: scale(1.1);
+    }
+    &:visited {
+        color: black;
+    }
+}
+
+
+
+hr {
+    border: 2px solid black;
+    border-radius: 6px;
+}

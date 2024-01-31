@@ -1,3 +1,5 @@
+// used for header/footer
+
 @mixin border_bottom($border_color, $border_size) {
     border-bottom: $border_size solid $border_color;
 }

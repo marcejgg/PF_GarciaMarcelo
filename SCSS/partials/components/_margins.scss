@@ -1,24 +1,24 @@
 .row_margin {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: $margin_m;
+    margin-top: $margin_m;
 }
 .centered {
     text-align: center;
 }
 .margin_left {
-    margin-left: 3rem;
+    margin-left: $margin_l;
 }
 .margin_top {
-    margin-top: 3rem;
+    margin-top: $margin_l;
 }
 .margin_top_sm {
-    margin-top: 1rem;
+    margin-top: $margin_s;
 }
 .margin_bottom {
-    margin-bottom: 3rem;
+    margin-bottom: $margin_l;
 }
 .margin_bottom_sm {
-    margin-bottom: 1rem;
+    margin-bottom: $margin_s;
 }
 .aligned_right {
     text-align: right;

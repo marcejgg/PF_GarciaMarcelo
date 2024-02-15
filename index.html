@@ -10,8 +10,9 @@
       crossorigin="anonymous"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="stylesheet" href="CSS/styles.css" />
     <title>CRA Home</title>
   </head>
@@ -56,57 +57,63 @@
         </div>
       </nav>
     </header>
+    <main>
+      <!-- primera seccion bienvenida-->
+      <section class="main-section main-section">
+        <div class="row">
+          <div class="col-4 col_limit_275_300 margin_left margin_top cra_logo">
+            <img
+              class="animate__animated animate__rotateIn"
+              src="img/cra.png"
+              alt="CRA Logo"
+            />
+          </div>
+          <div class="col-8 margin_top main_title">
+            <h1 class="animate__animated animate__pulse">
+              Bienvenidos al Club Regatas de Avellaneda
+            </h1>
+            <h2>Mas de 100 años juntos</h2>
+          </div>
+        </div>
+      </section>
 
-    <!-- primera seccion bienvenida-->
-    <section class="main-section main-section">
-      <div class="row">
-        <div
-          class="col-4 col_limit_275_300 margin_left margin_top cra_logo"
-        >
-          <img class="animate__animated animate__rotateIn" src="img/cra.png" alt="CRA Logo" />
+      <!-- segunda seccion actividades -->
+      <section class="container">
+        <div class="row row_margin">
+          <div class="col-sm">
+            <h2 class="test_scale body_h2">
+              <a href="pages/historia.html">Club Social</a>
+            </h2>
+            <p class="body_text">
+              Una gran familia. Teniendo como pilares el cuidado de la infancia
+              y la adolescencia en un ambiente saludable y contenido y la
+              preservacion del club como un espacio de recreacion, familiar,
+              abierto a la comunidad. Eventos sociales durante los fines de
+              semana, festivales solidarios, bingos, etc.
+            </p>
+          </div>
+          <div class="col col_limit_350_200 body_img">
+            <img src="img/social.png" alt="Club Social" />
+          </div>
         </div>
-        <div class="col-8 margin_top main_title">
-          <h1 class="animate__animated animate__pulse">Bienvenidos al Club Regatas de Avellaneda</h1>
-          <h2>Mas de 100 años juntos</h2>
+        <div class="row row_margin">
+          <div class="col col_limit_350_200 body_img">
+            <img src="img/deportes.png" alt="Club Deportes" />
+          </div>
+          <div class="col-sm">
+            <h2 class="aligned_right test_scale body_h2">
+              <a href="pages/deportes.html">Club Deportivo</a>
+            </h2>
+            <p class="aligned_right body_text">
+              Identidad, compromiso y pertenencia al club, inculcando los
+              valores esenciales en el deporte ayudando al desarrollo de
+              personas integras haciendo incapie en el respeto, compromiso y
+              competencia.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- segunda seccion actividades -->
-    <section class="container">
-      <div class="row row_margin">
-        <div class="col-sm">
-          <h2 class="test_scale body_h2">
-            <a href="pages/historia.html">Club Social</a>
-          </h2>
-          <p class="body_text">
-            Una gran familia. Teniendo como pilares el cuidado de la infancia y
-            la adolescencia en un ambiente saludable y contenido y la
-            preservacion del club como un espacio de recreacion, familiar,
-            abierto a la comunidad. Eventos sociales durante los fines de
-            semana, festivales solidarios, bingos, etc.
-          </p>
-        </div>
-        <div class="col col_limit_350_200 body_img">
-          <img src="img/social.png" alt="Club Social" />
-        </div>
-      </div>
-      <div class="row row_margin">
-        <div class="col col_limit_350_200 body_img">
-          <img src="img/deportes.png" alt="Club Deportes" />
-        </div>
-        <div class="col-sm">
-          <h2 class="aligned_right test_scale body_h2">
-            <a href="pages/deportes.html">Club Deportivo</a>
-          </h2>
-          <p class="aligned_right body_text">
-            Identidad, compromiso y pertenencia al club, inculcando los valores
-            esenciales en el deporte ayudando al desarrollo de personas integras
-            haciendo incapie en el respeto, compromiso y competencia.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- footer -->
     <footer class="footer">

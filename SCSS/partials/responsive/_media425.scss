@@ -1,12 +1,26 @@
 @media only screen and (max-width: 425px) {
-    .body_h2 {
+    .main_section {
+        display: none;
+    }  
+    
+    .body_centered {
         text-align: center;
     }
     .body_text {
         text-align: center;
     }
-
-    .body_img {
-        display: none;
+    .fix_width_200 {
+        @include col_limit(200px, 200px);
     }
+    h1 {
+        font-size: 40px;
+    }
+    .font-size-mobile {
+        font-size: large;
+    }
+    h2 {
+        font-size: xx-large;
+    }
+
+
 }

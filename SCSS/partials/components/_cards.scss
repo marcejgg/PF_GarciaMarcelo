@@ -10,12 +10,21 @@
     }
 }
 
+.col_limit_275_500 {
+    @include col_limit(275px, 500px );
+    img {
+        @extend .img_fix;
+    }
+}
+
+
 .col_limit_350_200 {
     @include col_limit(350px, 200px);
     img {
         @extend .img_fix;
     }
 }
+
 
 .col_limit_600 {
     height: 600px;
